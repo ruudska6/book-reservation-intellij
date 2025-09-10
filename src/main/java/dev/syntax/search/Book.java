@@ -14,6 +14,7 @@ public class Book {
     private long catCode;      // 분류코드
     private boolean isBorrow; // 책이 대출중인지 여부
     private String catName;
+	private String publisher;
     
     
 
@@ -107,5 +108,9 @@ public class Book {
 
 	public void setBorrow(boolean isBorrow) {
 		this.isBorrow = isBorrow;
-	} 
+	}
+
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
+	}
 }

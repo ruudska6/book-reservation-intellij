@@ -1,4 +1,4 @@
-package borrow;
+package dev.syntax.borrow;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package borrow;
+package dev.syntax.borrow;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
